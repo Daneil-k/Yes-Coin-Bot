@@ -9,11 +9,11 @@
     "stack": "container",
     "env": {
       "ENV": {
-      "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+      "description": "Setting this to ANYTHING will enable Webhooks when in env mode dont touch it",
       "value": "ANYTHING"
     },
       "test": {
-        "description": "The telegram bot token that you get from @BotFather.",
+        "description": "The telegram bot api.",
         "required": true
       }
     },
