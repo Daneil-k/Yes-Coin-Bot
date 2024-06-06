@@ -1,0 +1,26 @@
+{
+    "name": "water",
+    "description": "sample water",
+    "keywords": [
+      "bot",
+      "telegram",
+      "python"
+    ],
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "test": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": true
+      }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
